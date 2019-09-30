@@ -1,0 +1,123 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: calc(100vh - 20px);
+    margin: 0;
+    padding: 0;
+    background-color: #3399CC;
+    border: 10px solid #2B81AC;
+    font-family: «Lucida Sans Unicode», «Lucida Grande», sans-serif;
+    color: white;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 330px;
+}
+
+ul {
+    font-size: 0px;
+    padding: 0px;
+    border: 2px solid #ffffff;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+#conteiner {
+    margin: 0 auto;
+}
+
+ul>li {
+    display: inline-block;
+    height: 80px;
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+    box-sizing: border-box;
+}
+
+ul:hover>li {
+    opacity: 0.5;
+}
+
+#container ul li:hover {
+    opacity: 1;
+}
+
+.size1 {
+    width: 25%;
+}
+
+.size2 {
+    width: 50%;
+}
+
+.size4 {
+    width: 100%;
+}
+
+.color1 {
+    background-color: #3399CC;
+}
+
+.color2 {
+    background-color: #33CCCC;
+}
+
+.color3 {
+    background-color: #996699;
+}
+
+.color4 {
+    background-color: #C24747;
+}
+
+.color5 {
+    background-color: #E2674A;
+}
+
+.color6 {
+    background-color: #FFCC66;
+}
+
+.color7 {
+    background-color: #99CC99;
+}
+
+.color8 {
+    background-color: #669999;
+}
+
+.color9 {
+    background-color: #CC6699;
+}
+
+.color10 {
+    background-color: #339966;
+}
+
+.color11 {
+    background-color: #666699;
+}
